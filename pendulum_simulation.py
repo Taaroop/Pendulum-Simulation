@@ -19,7 +19,6 @@ while t_elapsed < sim_time:
     d_theta = (velo*dt)/length
     theta = theta-d_theta
     t_elapsed += dt
-    print(acc)
     
     li_time.append(t_elapsed)
     li_angle.append(theta)
