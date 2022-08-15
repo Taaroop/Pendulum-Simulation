@@ -1,7 +1,7 @@
 import math
 import matplotlib.pyplot as plt
 
-length = 10
+length = 100
 g = 9.8
 theta = 30
 velo = 0
