@@ -17,6 +17,7 @@ while t_elapsed < sim_time:
     acc = g*math.sin((math.pi/180)*theta)
     velo = velo + (acc*dt)
     d_theta = (velo*dt)/length
+    d_theta = d_theta*(180/math.pi)
     theta = theta-d_theta
     t_elapsed += dt
     
